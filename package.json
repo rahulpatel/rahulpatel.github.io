@@ -1,0 +1,20 @@
+{
+  "name": "rahulpatel.github.io",
+  "version": "1.0.0",
+  "description": "Rahul's personal website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulpatel/rahulpatel.github.io.git"
+  },
+  "author": "Rahul Patel <rahulpatel477@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahulpatel/rahulpatel.github.io/issues"
+  },
+  "homepage": "https://github.com/rahulpatel/rahulpatel.github.io"
+}

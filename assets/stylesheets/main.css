@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Antic Didone', serif;
+}
+
+body {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #CCC, #333, #CCC);
+}
+
+.link, .link:visited {
+  color: #CCC;
+}
+
+.link:hover {
+  color: #333;
+}
+
+
+/*        HEADER        */
+body > header {
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+
+body > header > h1 {
+  font-size: 4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+body > header > p {
+  margin: 0;
+}
+
+
+/*        MAIN        */
+body > main {
+  margin: 0 0 80px 0;
+}
+
+/*  SECTION   */
+body > main > section {
+  margin: 0 0 80px 0;
+}
+
+body > main > section > header {
+  margin: 0 0 20px 0;
+}
+
+body > main > section > header > h2 {
+  margin: 0;
+}
+
+body > main > section > header > hr {
+  margin: 10px 0 0 0;
+}
+
+/*  ARTICLE   */
+body > main > section > article {
+  padding: 0 0 0 10px;
+  margin: 0 0 30px 0;
+}
+
+body > main > section > article > header > div {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+body > main > section > article > header > div > h3 {
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  margin: 0;
+}
+
+body > main > section > article > header > div > a {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  margin: 0;
+}
+
+body > main > section > article > header > hr {
+  margin: 0;
+}
+
+
+/*        FOOTER        */
+body > footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  margin: 0 0 30px 0;
+}
+
+body > footer > p {
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  margin: 0;
+}
+
+body > footer > ul {
+  flex: 0 1 auto;
+  -webkit-flex: 0 1 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+body > footer > ul > li {
+  margin: 0 0 0 20px;
+}
+
+
+/*        MEDIA QUERIES        */
+@media only screen and (min-width : 480px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  body {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width : 979px) {
+  body {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  body {
+    width: 40%;
+  }
+}
